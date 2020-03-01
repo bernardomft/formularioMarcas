@@ -1,6 +1,6 @@
 .formulario{
     float: left;
-    width: 50%;
+    width: 100%;
     height: 530px;
     border: 1px solid;
     border-color: black;
@@ -12,19 +12,29 @@
     margin-bottom: 10px;
 }
 
+.formulario .informacion
+{
+    float: left;
+    width: 60%;
+}
+.formulario .loggin{
+    float: left;
+    width: 40%;
+}
+
 .formulario .campoF
 {
     margin-left: 10px;
     margin-top: 15px;
 }
 
-.loggin{
-    float: left;
-    width: 48%;
-}
+
 
 .loggin .titulo{
     float: right;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 .loggin .campoF{
@@ -32,7 +42,12 @@
     width:100%;
     text-align: center;
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
+
+
+
 
 
 
@@ -55,7 +70,7 @@
     border-radius: 0;
 }
 
-#nombre:active, #apellido:active, #comentarios:active{
+#nombre:active, #apellido:active, #comentarios:active, #usuario:active, #contraseña:active{
     background-color: lime;
 }
 
