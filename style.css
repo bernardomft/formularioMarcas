@@ -1,3 +1,11 @@
+@font-face{font-family: LearningCurve; src: url(./LearningCurve.ttf);}
+#nombre, #apellido{
+    font-family: LearningCurve;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
 .formulario{
     float: left;
     width: 100%;
@@ -29,12 +37,12 @@
 }
 
 
-
 .loggin .titulo{
     float: right;
     border: 1px solid;
     border-radius: 40px;
     padding: 10px;
+    font: 20px verdana;
 }
 
 .loggin .campoF{
@@ -88,8 +96,14 @@ legend span{
     padding: 3px;
 }
 
+.fuente{
+    font: 16px verdana;
+}
 
-
+#usuario:invalid, #contraseña:invalid{
+    border: 1px solid;
+    border-color:red;
+}
 
 
 

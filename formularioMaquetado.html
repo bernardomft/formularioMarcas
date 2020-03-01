@@ -26,6 +26,7 @@
             
             .rojo{
                 background-color: red;
+                color:red;
                 width: 20%;
                 height: 630px;
                 margin-top: 0;
@@ -34,6 +35,7 @@
 
             .verde{
                 background-color: green;
+                color:green;
                 float:left;
                 height: 50px;
                 width: 80%;
@@ -47,12 +49,14 @@
             }
             .azul{
                 background-color: blue;
+                color:blue;
                 float:left;
                 width: 100%;
                 height: 50px;
             }
             .morado{
                 background-color: blueviolet;
+                color:blueviolet;
                 float:left;
                 width: 100%;
                 height: 580px;
@@ -60,6 +64,7 @@
 
             .amarillo{
                 background-color: yellow;
+                color:yellow;
                 float: left;
                 width: 100%;
                 height: 100px;
@@ -78,44 +83,44 @@
             </div>
             <div class="negro">
                 <div class="formulario">
-                    <form  id="formAlta" name="formAlta" action="#" method="get">
+                    <form  id="formAlta" name="formAlta" action="http://empleadoAlta.com" method="get">
                         <fieldset>
                             <legend><span>Datos Personales</span></legend>
                             
                             <div class="informacion">
                                 <div class="campoF">
-                                    <label id="lb1" for="nombre">Nombre</label>
+                                    <label id="lb1" for="nombre" class="fuente"><span>Nombre</span></label>
                                     <input id="nombre" name="nombre" type="text" value="Miguel" tabindex="1" readonly="readonly" disabled="disabled"/>
                                 </div>
     
                                 <div class="campoF">
-                                    <label id="lb2" for="apellido">Apellido</label>
+                                    <label id="lb2" for="apellido" class="fuente">Apellido</label>
                                     <input id="apellido" name="apellido" type="text" value="De Cervantes" tabindex="2"/>
                                 </div>
                                 <div class="campoF">
-                                    <label id="lb13" for="numMatricula">Número de Matrícula</label>
+                                    <label id="lb13" for="numMatricula" class="fuente" >Número de Matrícula</label>
                                     <input type="text" value="102938" size="6" readonly="readonly" />
                                 </div>
                                 <div class="campoF">
-                                    <label id="lb3"  for="dia">Fecha de nacimiento</label>
+                                    <label id="lb3"  for="dia" class="fuente">Fecha de nacimiento</label>
                                     <input id="dia" name="dia" type="date" />
                                 </div>
                                 
                             <div class="campoF">
-                                    <label id="lb4" for="genero">Genero >></label>
-                                    <label for="lb5">Femenino</label>
+                                    <label id="lb4" for="genero" class="fuente">Genero >></label>
+                                    <label for="lb5" class="fuente">Femenino</label>
                                     <input type="radio" name="genero" id="femenino" value="F"/>
-                                    <label id="lb6">Masculino</label>
+                                    <label id="lb6" class="fuente">Masculino</label>
                                     <input type="radio" name="genero" id="masculino" value="M"/>
                             </div>
     
                             <div class="campoF">
-                                    <label id="lb7"  for="multiple">Multiple nacionalidad</label>
+                                    <label id="lb7"  for="multiple" class="fuente">Multiple nacionalidad</label>
                                     <input type="checkbox"/>
                             </div>
     
                                 <div class="campoF">
-                                    <label id="lb8" for="nacionalidad">Nacionalidad</label>
+                                    <label id="lb8" for="nacionalidad" class="fuente">Nacionalidad</label>
                                     <select name="nacionalidad" id="nacionalidad" multiple="multiple" size="2">
                                         <option value="34">Francia</option>
                                         <option value="33">España</option>
@@ -126,7 +131,7 @@
                                 </div>
     
                                 <div class="campoF">
-                                    <label id="lb9" for="carnet">carnet de conducir</label>
+                                    <label id="lb9" for="carnet" class="fuente">carnet de conducir</label>
                                     <select name="carnet" id="carnet">
                                         <optgroup label="Moto">
                                             <option value="A1">A1</option>
@@ -141,7 +146,7 @@
                                 </div>
                             
                                 <div class="campoF">
-                                    <label id="lb10" for="comentarios">comentarios</label>
+                                    <label id="lb10" for="comentarios" class="fuente">Comentarios</label>
                                     <textarea  name="comentarios" id="comentarios"  tabindex="4" rows="5" cols="30"></textarea>
                                 </div>
     
@@ -153,13 +158,13 @@
                                 </div>
         
                                 <div class="campoF">
-                                    <label id="lb11" for="usuario">Usuario</label>
-                                    <input id="usuario" name="usuario" type="text" value="alfa" size="20" maxlength="24" tabindex="3"/>
+                                    <label id="lb11" for="usuario" class="fuente">Usuario</label>
+                                    <input id="usuario" name="usuario" type="text" value="alfa" size="20" maxlength="24" tabindex="3" required="required"/>
                                 </div>
         
                                 <div class="campoF">
-                                    <label id="lb12"  for="contraseña">Contraseña</label>
-                                    <input id="contraseña" name="contraseña"type="password" value="****" size="12" maxlength="12" tabindex="4"/>
+                                    <label id="lb12"  for="contraseña" class="fuente">Contraseña</label>
+                                    <input id="contraseña" name="contraseña"type="password" value="****" size="12" maxlength="12" tabindex="4" required="required"/>
                                 </div>
         
                                 <div class="campoF">
